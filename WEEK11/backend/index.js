@@ -1,0 +1,13 @@
+const express = require('express');
+
+const app = express();
+
+app.get('/', function (request, response) {
+    return response.json({
+        evento: 'Semana Omnistack 11.0',
+        aluno: 'Natalia Fiori'
+    });
+})
+
+app.listen(3333);
+
