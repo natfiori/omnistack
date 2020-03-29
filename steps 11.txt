@@ -1,0 +1,21 @@
+STEPS
+
+- Baixar nodejs (versao ltr) (atraves do chocolately)
+- Criar pastas 
+- na pasta backend executar
+> npm init -y
+> npm install express
+- coda em node
+- na pasta omnistack executar
+> npx create-react-app frontend
+- na pasta frontend que sera criada executar
+> npm start
+
+- instalar o pacote nodemon
+> npm install nodemon -D
+- alterar em package.json > "start": "nodemon index.js"
+- instalar o knex.js 
+npm install knex --save
+npm install sqlite3
+
+31' 
